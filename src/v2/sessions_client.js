@@ -257,6 +257,7 @@ class SessionsClient {
    *   });
    */
   detectIntent(request, options, callback) {
+    console.log(request);
     if (options instanceof Function && callback === undefined) {
       callback = options;
       options = {};
